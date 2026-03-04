@@ -1,0 +1,1259 @@
+<?xml version="1.0"?>
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:dqc="http://standards.iso.org/iso/19157/-2/dqc/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<mdb:defaultLocale>
+		<lan:PT_Locale>
+			<lan:language>
+				<lan:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</lan:LanguageCode>
+			</lan:language>
+			<lan:characterEncoding>
+				<lan:MD_CharacterSetCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+			</lan:characterEncoding>
+		</lan:PT_Locale>
+	</mdb:defaultLocale>
+	<mdb:metadataScope>
+		<mdb:MD_MetadataScope>
+			<mdb:resourceScope>
+				<mcc:MD_ScopeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+			</mdb:resourceScope>
+		</mdb:MD_MetadataScope>
+	</mdb:metadataScope>
+	<mdb:contact>
+		<cit:CI_Responsibility>
+			<cit:role>
+				<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+			</cit:role>
+			<cit:party>
+				<cit:CI_Organisation>
+					<cit:name>
+						<gco:CharacterString>NPS Land Resources Division, Fort Collins </gco:CharacterString>
+					</cit:name>
+					<cit:contactInfo>
+						<cit:CI_Contact>
+							<cit:phone>
+								<cit:CI_Telephone>
+									<cit:number>
+										<gco:CharacterString>970-416-8529 </gco:CharacterString>
+									</cit:number>
+									<cit:numberType>
+										<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+									</cit:numberType>
+								</cit:CI_Telephone>
+							</cit:phone>
+							<cit:phone>
+								<cit:CI_Telephone>
+									<cit:number>
+										<gco:CharacterString>970-484-6432 </gco:CharacterString>
+									</cit:number>
+									<cit:numberType>
+										<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+									</cit:numberType>
+								</cit:CI_Telephone>
+							</cit:phone>
+							<cit:address>
+								<cit:CI_Address>
+									<cit:deliveryPoint>
+										<gco:CharacterString>301 S. Howes Street Suite 208 </gco:CharacterString>
+									</cit:deliveryPoint>
+									<cit:city>
+										<gco:CharacterString>Fort Collins </gco:CharacterString>
+									</cit:city>
+									<cit:administrativeArea>
+										<gco:CharacterString>CO </gco:CharacterString>
+									</cit:administrativeArea>
+									<cit:postalCode>
+										<gco:CharacterString>80522 </gco:CharacterString>
+									</cit:postalCode>
+									<cit:country>
+										<lan:CountryCode codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US">US</lan:CountryCode>
+									</cit:country>
+									<cit:electronicMailAddress>
+										<gco:CharacterString>Sean_Carlton@nps.gov </gco:CharacterString>
+									</cit:electronicMailAddress>
+								</cit:CI_Address>
+							</cit:address>
+							<cit:hoursOfService>
+								<gco:CharacterString>7:00am-3:30pm M-F Mountain </gco:CharacterString>
+							</cit:hoursOfService>
+						</cit:CI_Contact>
+					</cit:contactInfo>
+					<cit:individual>
+						<cit:CI_Individual>
+							<cit:name>
+								<gco:CharacterString>Sean Carlton </gco:CharacterString>
+							</cit:name>
+							<cit:positionName>
+								<gco:CharacterString>Cartographer </gco:CharacterString>
+							</cit:positionName>
+						</cit:CI_Individual>
+					</cit:individual>
+				</cit:CI_Organisation>
+			</cit:party>
+		</cit:CI_Responsibility>
+	</mdb:contact>
+	<mdb:dateInfo>
+		<cit:CI_Date>
+			<cit:date>
+				<gco:DateTime>2023-04-11T00:00:00</gco:DateTime>
+			</cit:date>
+			<cit:dateType>
+				<cit:CI_DateTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+			</cit:dateType>
+		</cit:CI_Date>
+	</mdb:dateInfo>
+	<mdb:metadataStandard>
+		<cit:CI_Citation>
+			<cit:title>
+				<gco:CharacterString>ISO 19115-3 Geographic Information - Metadata - Part 1: Fundamentals</gco:CharacterString>
+			</cit:title>
+			<cit:edition>
+				<gco:CharacterString>2014</gco:CharacterString>
+			</cit:edition>
+		</cit:CI_Citation>
+	</mdb:metadataStandard>
+	<mdb:identificationInfo>
+		<mri:MD_DataIdentification>
+			<mri:citation>
+				<cit:CI_Citation>
+					<cit:title>
+						<gco:CharacterString>Lake Mead National Recreation Area Tract and Boundary Data </gco:CharacterString>
+					</cit:title>
+					<cit:date>
+						<cit:CI_Date>
+							<cit:date>
+								<gco:DateTime>2018-05-10T00:00:00</gco:DateTime>
+							</cit:date>
+							<cit:dateType>
+								<cit:CI_DateTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+							</cit:dateType>
+						</cit:CI_Date>
+					</cit:date>
+					<cit:edition>
+						<gco:CharacterString>20180510</gco:CharacterString>
+					</cit:edition>
+					<cit:citedResponsibleParty>
+						<cit:CI_Responsibility>
+							<cit:role>
+								<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
+							</cit:role>
+							<cit:party>
+								<cit:CI_Organisation>
+									<cit:name>
+										<gco:CharacterString>Department of the Interior (DOI), National Park Service (NPS), Land Resources Division (LRD), Fort Collins Land Resources Program Center </gco:CharacterString>
+									</cit:name>
+								</cit:CI_Organisation>
+							</cit:party>
+						</cit:CI_Responsibility>
+					</cit:citedResponsibleParty>
+					<cit:citedResponsibleParty>
+						<cit:CI_Responsibility>
+							<cit:role>
+								<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+							</cit:role>
+							<cit:party>
+								<cit:CI_Organisation>
+									<cit:name>
+										<gco:CharacterString>National Park Service Land Resources Division </gco:CharacterString>
+									</cit:name>
+									<cit:contactInfo>
+										<cit:CI_Contact>
+											<cit:address>
+												<cit:CI_Address>
+													<cit:deliveryPoint>
+														<gco:CharacterString>Fort Collins, CO </gco:CharacterString>
+													</cit:deliveryPoint>
+												</cit:CI_Address>
+											</cit:address>
+										</cit:CI_Contact>
+									</cit:contactInfo>
+								</cit:CI_Organisation>
+							</cit:party>
+						</cit:CI_Responsibility>
+					</cit:citedResponsibleParty>
+					<cit:presentationForm>
+						<cit:CI_PresentationFormCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</cit:CI_PresentationFormCode>
+					</cit:presentationForm>
+					<cit:onlineResource>
+						<cit:CI_OnlineResource>
+							<cit:linkage>
+								<gco:CharacterString>http://nrdata.nps.gov/programs/Lands/lake_tracts.zip </gco:CharacterString>
+							</cit:linkage>
+						</cit:CI_OnlineResource>
+					</cit:onlineResource>
+				</cit:CI_Citation>
+			</mri:citation>
+			<mri:abstract>
+				<gco:CharacterString>These ESRI shape files are of National Park Service tract and boundary data that was created by the Land Resources Division. Tracts are numbered and created by the regional cartographic staff at the Land Resources Program Centers and are associated to the Land Status Maps. This data should be used to display properties that NPS owns and properties that NPS may have some type of interest such as scenic easements or right of ways.</gco:CharacterString>
+			</mri:abstract>
+			<mri:purpose>
+				<gco:CharacterString>This data is intended to keep a record of ownership information. Tracts can represent several types of interest like fee and scenic easement, and can be under several types of ownership like NPS owned, private, other federal, state or county. This data set provides accurate and reliable ownership data for park management and acquisition priorities.</gco:CharacterString>
+			</mri:purpose>
+			<mri:credit>
+				<gco:CharacterString>Department of the Interior (DOI), National Park Service (NPS), Land Resources Division (LRD), Fort Collins Land Resources Program Center</gco:CharacterString>
+			</mri:credit>
+			<mri:status>
+				<mcc:MD_ProgressCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_ProgressCode" codeListValue="completed">completed</mcc:MD_ProgressCode>
+			</mri:status>
+			<mri:pointOfContact>
+				<cit:CI_Responsibility>
+					<cit:role>
+						<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+					</cit:role>
+					<cit:party>
+						<cit:CI_Organisation>
+							<cit:name>
+								<gco:CharacterString>NPS - Land Resources Division, WASO-FC </gco:CharacterString>
+							</cit:name>
+							<cit:contactInfo>
+								<cit:CI_Contact>
+									<cit:phone>
+										<cit:CI_Telephone>
+											<cit:number>
+												<gco:CharacterString>970-416-8529 </gco:CharacterString>
+											</cit:number>
+											<cit:numberType>
+												<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+											</cit:numberType>
+										</cit:CI_Telephone>
+									</cit:phone>
+									<cit:phone>
+										<cit:CI_Telephone>
+											<cit:number>
+												<gco:CharacterString>970-484-6432 </gco:CharacterString>
+											</cit:number>
+											<cit:numberType>
+												<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+											</cit:numberType>
+										</cit:CI_Telephone>
+									</cit:phone>
+									<cit:address>
+										<cit:CI_Address>
+											<cit:deliveryPoint>
+												<gco:CharacterString>301 S. Howes Street Suite 208 </gco:CharacterString>
+											</cit:deliveryPoint>
+											<cit:city>
+												<gco:CharacterString>Fort Collins </gco:CharacterString>
+											</cit:city>
+											<cit:administrativeArea>
+												<gco:CharacterString>CO </gco:CharacterString>
+											</cit:administrativeArea>
+											<cit:postalCode>
+												<gco:CharacterString>80522 </gco:CharacterString>
+											</cit:postalCode>
+											<cit:country>
+												<gco:CharacterString>USA </gco:CharacterString>
+											</cit:country>
+											<cit:electronicMailAddress>
+												<gco:CharacterString>Sean_Carlton@nps.gov </gco:CharacterString>
+											</cit:electronicMailAddress>
+										</cit:CI_Address>
+									</cit:address>
+									<cit:hoursOfService>
+										<gco:CharacterString>7:00am-3:30pm M-F Mountain </gco:CharacterString>
+									</cit:hoursOfService>
+								</cit:CI_Contact>
+							</cit:contactInfo>
+							<cit:individual>
+								<cit:CI_Individual>
+									<cit:name>
+										<gco:CharacterString>Sean Carlton </gco:CharacterString>
+									</cit:name>
+									<cit:positionName>
+										<gco:CharacterString>Cartographer </gco:CharacterString>
+									</cit:positionName>
+								</cit:CI_Individual>
+							</cit:individual>
+						</cit:CI_Organisation>
+					</cit:party>
+				</cit:CI_Responsibility>
+			</mri:pointOfContact>
+			<mri:topicCategory>
+				<mri:MD_TopicCategoryCode>boundaries</mri:MD_TopicCategoryCode>
+			</mri:topicCategory>
+			<mri:extent>
+				<gex:EX_Extent>
+					<gex:geographicElement>
+						<gex:EX_GeographicBoundingBox>
+							<gex:extentTypeCode>
+								<gco:Boolean>true</gco:Boolean>
+							</gex:extentTypeCode>
+							<gex:westBoundLongitude>
+								<gco:Decimal>-114.923283</gco:Decimal>
+							</gex:westBoundLongitude>
+							<gex:eastBoundLongitude>
+								<gco:Decimal>-113.13602</gco:Decimal>
+							</gex:eastBoundLongitude>
+							<gex:southBoundLatitude>
+								<gco:Decimal>35.171526</gco:Decimal>
+							</gex:southBoundLatitude>
+							<gex:northBoundLatitude>
+								<gco:Decimal>36.591438</gco:Decimal>
+							</gex:northBoundLatitude>
+						</gex:EX_GeographicBoundingBox>
+					</gex:geographicElement>
+				</gex:EX_Extent>
+			</mri:extent>
+			<mri:extent>
+				<gex:EX_Extent>
+					<gex:description>
+						<gco:CharacterString>Beginning date is the first recorded conveyance date. Ending date is set to the last day the data set was updated. </gco:CharacterString>
+					</gex:description>
+					<gex:temporalElement>
+						<gex:EX_TemporalExtent>
+							<gex:extent>
+								<gml:TimePeriod>
+									<gml:beginPosition>2010-09-09</gml:beginPosition>
+									<gml:endPosition>2018-05-10</gml:endPosition>
+								</gml:TimePeriod>
+							</gex:extent>
+						</gex:EX_TemporalExtent>
+					</gex:temporalElement>
+				</gex:EX_Extent>
+			</mri:extent>
+			<mri:resourceMaintenance>
+				<mmi:MD_MaintenanceInformation/>
+			</mri:resourceMaintenance>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword>
+						<gco:CharacterString>United States</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>National Park Service</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>LAKE</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>PWRO</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>AZ</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>NV</gco:CharacterString>
+					</mri:keyword>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="place">place</mri:MD_KeywordTypeCode>
+					</mri:type>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword gco:nilReason="missing"/>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="place">place</mri:MD_KeywordTypeCode>
+					</mri:type>
+					<mri:thesaurusName>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>National Park System Unit Name Thesaurus</gco:CharacterString>
+							</cit:title>
+						</cit:CI_Citation>
+					</mri:thesaurusName>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword gco:nilReason="missing"/>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="place">place</mri:MD_KeywordTypeCode>
+					</mri:type>
+					<mri:thesaurusName>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>National Park System Unit Code Thesaurus</gco:CharacterString>
+							</cit:title>
+						</cit:CI_Citation>
+					</mri:thesaurusName>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword>
+						<gco:CharacterString>Boundaries</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>Planning Cadastre</gco:CharacterString>
+					</mri:keyword>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+					</mri:type>
+					<mri:thesaurusName>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>ISO 19115 Topic Category</gco:CharacterString>
+							</cit:title>
+						</cit:CI_Citation>
+					</mri:thesaurusName>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword>
+						<gco:CharacterString>Boundary</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>Ownership</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>Parcels</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>Tracts</gco:CharacterString>
+					</mri:keyword>
+					<mri:keyword>
+						<gco:CharacterString>LRDCAB</gco:CharacterString>
+					</mri:keyword>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+					</mri:type>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:descriptiveKeywords>
+				<mri:MD_Keywords>
+					<mri:keyword gco:nilReason="missing"/>
+					<mri:type>
+						<mri:MD_KeywordTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#napMD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+					</mri:type>
+					<mri:thesaurusName>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>National Park Service Theme Category Thesaurus</gco:CharacterString>
+							</cit:title>
+						</cit:CI_Citation>
+					</mri:thesaurusName>
+				</mri:MD_Keywords>
+			</mri:descriptiveKeywords>
+			<mri:resourceConstraints>
+				<mco:MD_Constraints>
+					<mco:useLimitation>
+						<gco:CharacterString>NPS Director's Order #25 states: "Land status maps will be prepared to identify the ownership of the lands within the authorized boundaries of the park unit. These maps, showing ownership and acreage, are the 'official record' of the acreage of Federal and non-federal lands within the park boundaries. While these maps are the official record of the lands and acreage within the unit's authorized boundaries, they are not of survey quality and not intended to be used for survey purposes." As such this data is intended for use as a tool for GIS analysis. It is in no way intended for engineering or legal purposes. The data accuracy is checked against best available sources which may be dated and vary by location. NPS assumes no liability for use of this data. The boundary polygons LRD creates represent the current legislated boundary of a given NPS unit. NPS does not necessarily have full fee ownership or hold another interest (easement, right of way, etc...) in all parcels contained within this boundary. Equivalently NPS may own or have an interest in parcels outside the legislated boundary of a given unit. In order to obtain complete information about current NPS interests both inside and outside the units legislated boundary, the tracts file created by LRD should be used in conjunction with this boundary file created by LRD.</gco:CharacterString>
+					</mco:useLimitation>
+				</mco:MD_Constraints>
+			</mri:resourceConstraints>
+			<mri:resourceConstraints>
+				<mco:MD_LegalConstraints>
+					<mco:useLimitation>
+						<gco:CharacterString>Property ownership data is compiled from deeds, plats, surveys, and other source data. These are not engineering quality drawings and should be used for administrative purposes only. The National Park Service shall not be held liable for improper or incorrect use of the data described and/or contained herein. These data and related graphics are not legal documents and are not intended to be used as such. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and consistent within the limitations of geospatial data in general and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data; it is not appropriate to use the related graphics as data. The National Park Service gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from an NPS server and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully on a computer system at the National Park Service, no warranty expressed or implied is made regarding the utility of the data on another system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</gco:CharacterString>
+					</mco:useLimitation>
+					<mco:accessConstraints>
+						<mco:MD_RestrictionCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</mco:MD_RestrictionCode>
+					</mco:accessConstraints>
+					<mco:otherConstraints>
+						<gco:CharacterString>None </gco:CharacterString>
+					</mco:otherConstraints>
+				</mco:MD_LegalConstraints>
+			</mri:resourceConstraints>
+			<mri:defaultLocale>
+				<lan:PT_Locale>
+					<lan:language>
+						<lan:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</lan:LanguageCode>
+					</lan:language>
+					<lan:characterEncoding gco:nilReason="unknown"/>
+				</lan:PT_Locale>
+			</mri:defaultLocale>
+		</mri:MD_DataIdentification>
+	</mdb:identificationInfo>
+	<mdb:distributionInfo>
+		<mrd:MD_Distribution>
+			<mrd:distributionFormat>
+				<mrd:MD_Format>
+					<mrd:formatSpecificationCitation>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>ESRI Shapefile </gco:CharacterString>
+							</cit:title>
+						</cit:CI_Citation>
+					</mrd:formatSpecificationCitation>
+				</mrd:MD_Format>
+			</mrd:distributionFormat>
+			<mrd:distributor>
+				<mrd:MD_Distributor>
+					<mrd:distributorContact>
+						<cit:CI_Responsibility>
+							<cit:role>
+								<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+							</cit:role>
+							<cit:party>
+								<cit:CI_Organisation>
+									<cit:name>
+										<gco:CharacterString>NPS - Land Resources Division, WASO-FC </gco:CharacterString>
+									</cit:name>
+									<cit:contactInfo>
+										<cit:CI_Contact>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-484-6428 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-484-6432 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:address>
+												<cit:CI_Address>
+													<cit:deliveryPoint>
+														<gco:CharacterString>301 South Howes Street Suite 208 </gco:CharacterString>
+													</cit:deliveryPoint>
+													<cit:city>
+														<gco:CharacterString>Fort Collins </gco:CharacterString>
+													</cit:city>
+													<cit:administrativeArea>
+														<gco:CharacterString>CO </gco:CharacterString>
+													</cit:administrativeArea>
+													<cit:postalCode>
+														<gco:CharacterString>80522 </gco:CharacterString>
+													</cit:postalCode>
+													<cit:country>
+														<lan:CountryCode codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US">US</lan:CountryCode>
+													</cit:country>
+													<cit:electronicMailAddress>
+														<gco:CharacterString>PPFL_LandsNet@nps.gov </gco:CharacterString>
+													</cit:electronicMailAddress>
+												</cit:CI_Address>
+											</cit:address>
+											<cit:hoursOfService>
+												<gco:CharacterString>7:00am-5:30pm Mountain Monday-Thursday </gco:CharacterString>
+											</cit:hoursOfService>
+										</cit:CI_Contact>
+									</cit:contactInfo>
+									<cit:individual>
+										<cit:CI_Individual>
+											<cit:name>
+												<gco:CharacterString>Chief Cartographer </gco:CharacterString>
+											</cit:name>
+											<cit:positionName>
+												<gco:CharacterString>Chief Cartographer </gco:CharacterString>
+											</cit:positionName>
+										</cit:CI_Individual>
+									</cit:individual>
+								</cit:CI_Organisation>
+							</cit:party>
+						</cit:CI_Responsibility>
+					</mrd:distributorContact>
+					<mrd:distributionOrderProcess>
+						<mrd:MD_StandardOrderProcess>
+							<mrd:fees>
+								<gco:CharacterString>None </gco:CharacterString>
+							</mrd:fees>
+						</mrd:MD_StandardOrderProcess>
+					</mrd:distributionOrderProcess>
+					<mrd:distributorFormat>
+						<mrd:MD_Format>
+							<mrd:formatSpecificationCitation>
+								<cit:CI_Citation>
+									<cit:title>
+										<gco:CharacterString>ESRI Shapefile </gco:CharacterString>
+									</cit:title>
+								</cit:CI_Citation>
+							</mrd:formatSpecificationCitation>
+						</mrd:MD_Format>
+					</mrd:distributorFormat>
+					<mrd:distributorTransferOptions>
+						<mrd:MD_DigitalTransferOptions>
+							<mrd:onLine>
+								<cit:CI_OnlineResource>
+									<cit:linkage>
+										<gco:CharacterString>http://nrdata.nps.gov/programs/Lands/lake_tracts.zip </gco:CharacterString>
+									</cit:linkage>
+								</cit:CI_OnlineResource>
+							</mrd:onLine>
+						</mrd:MD_DigitalTransferOptions>
+					</mrd:distributorTransferOptions>
+				</mrd:MD_Distributor>
+			</mrd:distributor>
+			<mrd:distributor>
+				<mrd:MD_Distributor>
+					<mrd:distributorContact>
+						<cit:CI_Responsibility>
+							<cit:role>
+								<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+							</cit:role>
+							<cit:party>
+								<cit:CI_Organisation>
+									<cit:name>
+										<gco:CharacterString>NPS - Land Resources Division, WASO-FC </gco:CharacterString>
+									</cit:name>
+									<cit:contactInfo>
+										<cit:CI_Contact>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-484-6428 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-484-6432 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:address>
+												<cit:CI_Address>
+													<cit:deliveryPoint>
+														<gco:CharacterString>301 South Howes Street Suite 208 </gco:CharacterString>
+													</cit:deliveryPoint>
+													<cit:city>
+														<gco:CharacterString>Fort Collins </gco:CharacterString>
+													</cit:city>
+													<cit:administrativeArea>
+														<gco:CharacterString>CO </gco:CharacterString>
+													</cit:administrativeArea>
+													<cit:postalCode>
+														<gco:CharacterString>80522 </gco:CharacterString>
+													</cit:postalCode>
+													<cit:country>
+														<lan:CountryCode codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US">US</lan:CountryCode>
+													</cit:country>
+													<cit:electronicMailAddress>
+														<gco:CharacterString>PPFL_LandsNet@nps.gov </gco:CharacterString>
+													</cit:electronicMailAddress>
+												</cit:CI_Address>
+											</cit:address>
+											<cit:hoursOfService>
+												<gco:CharacterString>7:00am-5:30pm Mountain Monday-Thursday </gco:CharacterString>
+											</cit:hoursOfService>
+										</cit:CI_Contact>
+									</cit:contactInfo>
+									<cit:individual>
+										<cit:CI_Individual>
+											<cit:name>
+												<gco:CharacterString>Chief Cartographer </gco:CharacterString>
+											</cit:name>
+											<cit:positionName>
+												<gco:CharacterString>Chief Cartographer </gco:CharacterString>
+											</cit:positionName>
+										</cit:CI_Individual>
+									</cit:individual>
+								</cit:CI_Organisation>
+							</cit:party>
+						</cit:CI_Responsibility>
+					</mrd:distributorContact>
+					<mrd:distributionOrderProcess>
+						<mrd:MD_StandardOrderProcess>
+							<mrd:orderingInstructions>
+								<gco:CharacterString>
+To get a hard copy plot, contact Land Resources Program
+Center for replacement costs and turnaround times.
+</gco:CharacterString>
+							</mrd:orderingInstructions>
+						</mrd:MD_StandardOrderProcess>
+					</mrd:distributionOrderProcess>
+				</mrd:MD_Distributor>
+			</mrd:distributor>
+			<mrd:transferOptions>
+				<mrd:MD_DigitalTransferOptions>
+					<mrd:onLine>
+						<cit:CI_OnlineResource>
+							<cit:linkage>
+								<gco:CharacterString>http://nrdata.nps.gov/programs/Lands/lake_tracts.zip </gco:CharacterString>
+							</cit:linkage>
+						</cit:CI_OnlineResource>
+					</mrd:onLine>
+				</mrd:MD_DigitalTransferOptions>
+			</mrd:transferOptions>
+		</mrd:MD_Distribution>
+	</mdb:distributionInfo>
+	<mdb:dataQualityInfo>
+		<mdq:DQ_DataQuality>
+			<mdq:scope>
+				<mcc:MD_Scope>
+					<mcc:level>
+						<mcc:MD_ScopeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+					</mcc:level>
+				</mcc:MD_Scope>
+			</mdq:scope>
+			<mdq:report>
+				<mdq:DQ_QuantitativeAttributeAccuracy>
+					<mdq:measure>
+						<mdq:DQ_MeasureReference>
+							<mdq:measureDescription>
+								<gco:CharacterString>The Tract_id, and Alpha data fields are provided by regional cartographic offices. The Date_Edit data field is added when the regional office submits the data to the Lands WASO Fort Collins office for inclusion in the national data set. All remaining tract attributes are updated from LRD's Master Deed Listing (MDL) nightly. By default the Status and Estate fields are included shape file dbf. All other MDL fields covered under the FOIA can be added to the tract dbf upon request.</gco:CharacterString>
+							</mdq:measureDescription>
+						</mdq:DQ_MeasureReference>
+					</mdq:measure>
+					<mdq:result gco:nilReason="missing"/>
+				</mdq:DQ_QuantitativeAttributeAccuracy>
+			</mdq:report>
+			<mdq:report>
+				<mdq:DQ_ConceptualConsistency>
+					<mdq:measure>
+						<mdq:DQ_MeasureReference>
+							<mdq:measureDescription>
+								<gco:CharacterString>Link and node polygon topology is created using AutoDesk Land Desktop 2006. The data is then exported to ESRI shape file format and reprojected from it's native Autodesk coordinate system to NAD83 generic latitude and longitude, LL83. </gco:CharacterString>
+							</mdq:measureDescription>
+						</mdq:DQ_MeasureReference>
+					</mdq:measure>
+					<mdq:result gco:nilReason="missing"/>
+				</mdq:DQ_ConceptualConsistency>
+			</mdq:report>
+			<mdq:report>
+				<mdq:DQ_CompletenessOmission>
+					<mdq:measure>
+						<mdq:DQ_MeasureReference>
+							<mdq:measureDescription>
+								<gco:CharacterString>Information contained in LRD's land ownership databases is updated nightly however tract polygons are posted to the NPS Data Store on a monthly basis. Users can ensure parcel polygons have up to date ownership attribution after the publication date by contacting your regional LRD office or downloading the Current_Tract_Ownership_Data file located on the NPS Data Store (http://science.nature.nps.gov/nrdata/) in a dBase format. Please contact the data originator with any suggested corrections and updates. LRD's boundary polygons represent the current legislated boundary of a given NPS unit. NPS does not necessarily have full fee ownership or hold another interest (easement, right of way, etc...) in all parcels contained within this boundary. Equivalently NPS may own or have an interest in parcels outside the legislated boundary of a given unit. In order to obtain complete information about current NPS interests both inside and outside the units legislated boundary, LRD's tracts files should also be downloaded and used in conjunction with LRD's boundary files. BLM GCDB data was used in order to complete the majority of the boundary and tracts for LAKE. This was done by importing GCDB files for each township and range that encompass the park. Where no GCDB data existed for Canyon Rim portions of the boundary, USGS SDTS hypsography files were processed in ArcMap and converted to converages, then converted to shapefiles. The same data hypsography data used for GRCA was used for LAKE in order to have coincident boundaries. The boundary along the centerline of the Colorado River was completed the same way by using USGS hydrography data as well as the southern bank of the Colorado River where LAKE and GRCA meet. Where GCDB data did exist that coincided with the boundary, linework was copied from the PLSS layer to the tract or boundary layer. In order to map the interior and exterior tracts, deeds, legal descriptions, Arizona State Land Department, Arizona Land Resources Information System data was used. Some tract boundaries were not as definitive. The process for mapping these tracts is as follows: On-screen digitized a portion of tract 06-101 from previous segment maps, starting at point X = 782207.63 Y = 13103198.59 and ending at point X = 847757.29 Y = 12985590.86. All other tracts within LAKE were completed using BLM GCDB data and referencing BLM MTPs to verify. In particular, the aforementioned portion of tract 06-101, as well as tracts 14-101 and 14-102 where LAKE and the Hualapai Indian Reservation overlap. For tax parcels tracts, Las Vegas NV Assessor’s Office data was used. The ALLTAX coverage is a polygon coverage representing tax district boundaries for all of Clark County. This data set was created in part by control points. The AOGPS coverage contains control points for areas throughout the county. Many Control Points for this coverage were originally derived by the County Surveyor's Office by field survey methods, using Trimble Navigation Systems Global Position System Technology, yielding positional accuracy "resource" to "survey" grade, depending upon the method of survey. This data has been subsequently converted by the Assessor's Parcel Data Systems Division from NAD 83, HARN adjusted Nevada State Plane Grid Coordinates in meters, to "Ground Coordinates" in "State Plane Feet". This data is intended for internal Clark County Assessor's purposes only. No liability is assumed by Clark County for the accuracy of this adjusted data. The Arizona state land ownership portion of the land coverage is updated along with the surface parcels coverage. All changes to the surface parcels are performed by the CAD department. They are then given to the GIS department in a DXF file on a township by township basis. Through a series of AMLs and editing procedures, the changes in the DXF file are incorporated into the surface parcels and land coverages. Changes in federal agencies are done primarily through the Bureau of Land Management (BLM) using a customized AML based application of ArcInfo. BLM incorporates its changes as well as others such as the Forest Service, Bureau of Reclamation, Fish &amp; Wildlife Service, National Park Service, etc. BLM and State of Arizona status is updated approximately every six months, other agencies are updated on an irregular basis. Per Public Law 88-639 The inclusion of Indian Lands within the exterior boundaries of the area shall not be effective until approved by the Hualapai Tribal Council. Nothing in this Act shall deprive the members of the Hualapai Tribe of hunting and fishing privileges presently exercised by them, nor diminish those rights and privileges of that part of the reservation which is included in the Lake Mead Recreation Area. Data is obtained from both the Bureau of Land Management and Bureau of Indian Affairs on a somewhat regular basis and incorporated into the land coverage as necessary. UPDATE 02/03/2014: The GRCA and LAKE boundaries have been adjusted to coincide with the Mount Logan Wilderness area survey that was conducted. The areas affected for GRCA are T33N-R8W sections 5,8,17 and T34N-R8W sections29,32. The areas affected for LAKE are T33N-R8W sections 17, 18 and T33N-R8W section 13. UPDATE 06/04/2014: Corrected various slivers and gaps between the LAKE and GRCA coincident boundaries.</gco:CharacterString>
+							</mdq:measureDescription>
+						</mdq:DQ_MeasureReference>
+					</mdq:measure>
+					<mdq:result gco:nilReason="missing"/>
+				</mdq:DQ_CompletenessOmission>
+			</mdq:report>
+			<mdq:report>
+				<mdq:DQ_AbsoluteExternalPositionalAccuracy>
+					<mdq:measure>
+						<mdq:DQ_MeasureReference>
+							<mdq:measureDescription>
+								<gco:CharacterString>For the USGS DLG Data Horizontal positional accuracy is based upon the use of USGS source quadrangles which are compiled to meet National Map Accuracy Standards (NMAS). NMAS horizontal accuracy requires that at least 90 percent of points tested are within 0.02 inches of the true position. The digital data are estimated to contain a horizontal positional error of less than or equal to 0.003 inches standard error in the two component directions relative to the source quadrangle. Comparison to the graphic source is used as control to assess digital positional accuracy. For the BLM GCDB Data the majority of coordinates in this dataset fall within +/- 40 feet spatial accuracy (the general rule of thumb to be called 1:24,000-scale data). For the DOQQs the horizontal positional accuracy and the assurance of that accuracy depend, in part, on the accuracy of the data inputs to the rectification process. These inputs consist of the digital elevation model (DEM),aerotriangulation control and methods, the photo source camera calibration, scanner calibration, and aerial photographs that meet National Aerial Photography Program (NAPP) standards. The vertical accuracy of the verified USGS format DEM is equivalent to or better than a USGS level 1 or 2 DEM, with a root mean square error (RMSE) of no greater than 7.0 meters. Field control is acquired by third order class 1 or better survey methods sufficiently spaced to meet National Map Accuracy Staandards (NMAS) for 1:12,000-scale products. Aerial cameras have current certification from the USGS, National Mapping Division, Optical Science Laboratory. Test calibration scans are performed on all source photography scanners. Horizontal positional accuracy is determined by the Orthophoto Accuracy (ORACC) software program for DOQ data produced by the National Mapping Division. The program determines the accuracy by finding the line and sample coordinates of the passpoints in the DOQ and fitting these to their ground coordinates to develop a root mean square error (RMSE). From 4 to 9 points are checked. As a further accuracy test, the image line and sample coordinates of the DEM corners are transformed and compared with the actual X,Y DEM corner values to determine if they are within the RMSE. Smaller scale maps have a larger level of inaccuracy. It is assumed that the boundary and tract information meets National Map Accuracy Standards and should be considered no better than the listed sources. </gco:CharacterString>
+							</mdq:measureDescription>
+						</mdq:DQ_MeasureReference>
+					</mdq:measure>
+					<mdq:result gco:nilReason="missing"/>
+				</mdq:DQ_AbsoluteExternalPositionalAccuracy>
+			</mdq:report>
+			<mdq:report>
+				<mdq:DQ_AbsoluteExternalPositionalAccuracy>
+					<mdq:measure>
+						<mdq:DQ_MeasureReference>
+							<mdq:measureDescription>
+								<gco:CharacterString>None</gco:CharacterString>
+							</mdq:measureDescription>
+						</mdq:DQ_MeasureReference>
+					</mdq:measure>
+					<mdq:result gco:nilReason="missing"/>
+				</mdq:DQ_AbsoluteExternalPositionalAccuracy>
+			</mdq:report>
+		</mdq:DQ_DataQuality>
+	</mdb:dataQualityInfo>
+	<mdb:resourceLineage>
+		<mrl:LI_Lineage>
+			<mrl:scope>
+				<mcc:MD_Scope>
+					<mcc:level>
+						<mcc:MD_ScopeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+					</mcc:level>
+				</mcc:MD_Scope>
+			</mrl:scope>
+			<mrl:source>
+				<mrl:LI_Source>
+					<mrl:description>
+						<gco:CharacterString>tract and boundary geometry, Tract_id, Alpha </gco:CharacterString>
+					</mrl:description>
+					<mrl:sourceSpatialResolution>
+						<mri:MD_Resolution>
+							<mri:equivalentScale>
+								<mri:MD_RepresentativeFraction>
+									<mri:denominator>
+										<gco:Integer>1</gco:Integer>
+									</mri:denominator>
+								</mri:MD_RepresentativeFraction>
+							</mri:equivalentScale>
+						</mri:MD_Resolution>
+					</mrl:sourceSpatialResolution>
+					<mrl:sourceCitation>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>Legal Descriptions </gco:CharacterString>
+							</cit:title>
+							<cit:alternateTitle>
+								<gco:CharacterString>Legal Descriptions </gco:CharacterString>
+							</cit:alternateTitle>
+							<cit:date>
+								<cit:CI_Date>
+									<cit:date>
+										<gco:DateTime>2018-05-10T00:00:00</gco:DateTime>
+									</cit:date>
+									<cit:dateType>
+										<cit:CI_DateTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+									</cit:dateType>
+								</cit:CI_Date>
+							</cit:date>
+							<cit:edition>
+								<gco:CharacterString>N/A </gco:CharacterString>
+							</cit:edition>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>National Park Service - Land Resources Division </gco:CharacterString>
+											</cit:name>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>Land Resources Division </gco:CharacterString>
+											</cit:name>
+											<cit:contactInfo>
+												<cit:CI_Contact>
+													<cit:address>
+														<cit:CI_Address>
+															<cit:deliveryPoint>
+																<gco:CharacterString>Fort Collins </gco:CharacterString>
+															</cit:deliveryPoint>
+														</cit:CI_Address>
+													</cit:address>
+												</cit:CI_Contact>
+											</cit:contactInfo>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:otherCitationDetails>
+								<gco:CharacterString>MANDATORY IF APPLICABLE </gco:CharacterString>
+							</cit:otherCitationDetails>
+						</cit:CI_Citation>
+					</mrl:sourceCitation>
+					<mrl:sourceExtent>
+						<gex:EX_Extent>
+							<gex:description>
+								<gco:CharacterString>Beginning Date represents first conveyed date. Ending date is when the data was last updated. </gco:CharacterString>
+							</gex:description>
+							<gex:temporalElement>
+								<gex:EX_TemporalExtent>
+									<gex:extent>
+										<gml:TimePeriod>
+											<gml:beginPosition>1936-10-13</gml:beginPosition>
+											<gml:endPosition>1978-01-17</gml:endPosition>
+										</gml:TimePeriod>
+									</gex:extent>
+								</gex:EX_TemporalExtent>
+							</gex:temporalElement>
+						</gex:EX_Extent>
+					</mrl:sourceExtent>
+				</mrl:LI_Source>
+			</mrl:source>
+			<mrl:source>
+				<mrl:LI_Source>
+					<mrl:description>
+						<gco:CharacterString>tract and boundary geometry, Tract_id, Alpha </gco:CharacterString>
+					</mrl:description>
+					<mrl:sourceSpatialResolution>
+						<mri:MD_Resolution>
+							<mri:equivalentScale>
+								<mri:MD_RepresentativeFraction>
+									<mri:denominator>
+										<gco:Integer>1</gco:Integer>
+									</mri:denominator>
+								</mri:MD_RepresentativeFraction>
+							</mri:equivalentScale>
+						</mri:MD_Resolution>
+					</mrl:sourceSpatialResolution>
+					<mrl:sourceCitation>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>Deeds </gco:CharacterString>
+							</cit:title>
+							<cit:alternateTitle>
+								<gco:CharacterString>deeds </gco:CharacterString>
+							</cit:alternateTitle>
+							<cit:date>
+								<cit:CI_Date>
+									<cit:date>
+										<gco:DateTime>2018-05-10T00:00:00</gco:DateTime>
+									</cit:date>
+									<cit:dateType>
+										<cit:CI_DateTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+									</cit:dateType>
+								</cit:CI_Date>
+							</cit:date>
+							<cit:edition>
+								<gco:CharacterString>N/A </gco:CharacterString>
+							</cit:edition>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>National Park Service - Land Resources Division </gco:CharacterString>
+											</cit:name>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>Land Resources Division </gco:CharacterString>
+											</cit:name>
+											<cit:contactInfo>
+												<cit:CI_Contact>
+													<cit:address>
+														<cit:CI_Address>
+															<cit:deliveryPoint>
+																<gco:CharacterString>Fort Collins </gco:CharacterString>
+															</cit:deliveryPoint>
+														</cit:CI_Address>
+													</cit:address>
+												</cit:CI_Contact>
+											</cit:contactInfo>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:otherCitationDetails>
+								<gco:CharacterString>MANDATORY IF APPLICABLE </gco:CharacterString>
+							</cit:otherCitationDetails>
+						</cit:CI_Citation>
+					</mrl:sourceCitation>
+					<mrl:sourceExtent>
+						<gex:EX_Extent>
+							<gex:description>
+								<gco:CharacterString>Beginning Date represents first conveyed date. Ending date is when the data was last updated. </gco:CharacterString>
+							</gex:description>
+							<gex:temporalElement>
+								<gex:EX_TemporalExtent>
+									<gex:extent>
+										<gml:TimePeriod>
+											<gml:beginPosition>1936-10-13</gml:beginPosition>
+											<gml:endPosition>1978-01-17</gml:endPosition>
+										</gml:TimePeriod>
+									</gex:extent>
+								</gex:EX_TemporalExtent>
+							</gex:temporalElement>
+						</gex:EX_Extent>
+					</mrl:sourceExtent>
+				</mrl:LI_Source>
+			</mrl:source>
+			<mrl:source>
+				<mrl:LI_Source>
+					<mrl:description>
+						<gco:CharacterString>tract and boundary geometry, Tract_id, Alpha </gco:CharacterString>
+					</mrl:description>
+					<mrl:sourceCitation>
+						<cit:CI_Citation>
+							<cit:title>
+								<gco:CharacterString>Segment Maps </gco:CharacterString>
+							</cit:title>
+							<cit:alternateTitle>
+								<gco:CharacterString>segment maps </gco:CharacterString>
+							</cit:alternateTitle>
+							<cit:date>
+								<cit:CI_Date>
+									<cit:date>
+										<gco:DateTime>2018-05-10T00:00:00</gco:DateTime>
+									</cit:date>
+									<cit:dateType>
+										<cit:CI_DateTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+									</cit:dateType>
+								</cit:CI_Date>
+							</cit:date>
+							<cit:edition>
+								<gco:CharacterString>N/A </gco:CharacterString>
+							</cit:edition>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="originator">originator</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>National Park Service - Land Resources Division </gco:CharacterString>
+											</cit:name>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:citedResponsibleParty>
+								<cit:CI_Responsibility>
+									<cit:role>
+										<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+									</cit:role>
+									<cit:party>
+										<cit:CI_Organisation>
+											<cit:name>
+												<gco:CharacterString>Land Resources Division </gco:CharacterString>
+											</cit:name>
+											<cit:contactInfo>
+												<cit:CI_Contact>
+													<cit:address>
+														<cit:CI_Address>
+															<cit:deliveryPoint>
+																<gco:CharacterString>Fort Collins </gco:CharacterString>
+															</cit:deliveryPoint>
+														</cit:CI_Address>
+													</cit:address>
+												</cit:CI_Contact>
+											</cit:contactInfo>
+										</cit:CI_Organisation>
+									</cit:party>
+								</cit:CI_Responsibility>
+							</cit:citedResponsibleParty>
+							<cit:otherCitationDetails>
+								<gco:CharacterString>MANDATORY IF APPLICABLE </gco:CharacterString>
+							</cit:otherCitationDetails>
+						</cit:CI_Citation>
+					</mrl:sourceCitation>
+					<mrl:sourceExtent>
+						<gex:EX_Extent>
+							<gex:description>
+								<gco:CharacterString>Beginning Date represents first conveyed date. Ending date is when the data was last updated. </gco:CharacterString>
+							</gex:description>
+							<gex:temporalElement>
+								<gex:EX_TemporalExtent>
+									<gex:extent>
+										<gml:TimePeriod>
+											<gml:beginPosition>1975-05</gml:beginPosition>
+											<gml:endPosition>2009-04-20</gml:endPosition>
+										</gml:TimePeriod>
+									</gex:extent>
+								</gex:EX_TemporalExtent>
+							</gex:temporalElement>
+						</gex:EX_Extent>
+					</mrl:sourceExtent>
+				</mrl:LI_Source>
+			</mrl:source>
+			<mrl:processStep>
+				<mrl:LI_ProcessStep>
+					<mrl:description>
+						<gco:CharacterString>The Autodesk line work is imported, edited, attributed, approved, and a link and node topology is developed both for the tract and boundary data layers according to the procedures described in the Land Acquisition Procedures Manual Chapter 5. The entire unit is created in a geographically contiguous model space and separate layouts representing each individual segment map are created. The tract and boundary data is then reprojected to North American Datum 1983 generic latitude &amp; longitude and exported from Autodesk to an ArcView shape file format in a single step. BLM GCDB data was used in order to complete the majority of the boundary and tracts for LAKE. This was done by importing GCDB files for each township and range that encompass the park. Where no GCDB data existed for Canyon Rim portions of the boundary, USGS SDTS hypsography files were processed in ArcMap and converted to converages, then converted to shapefiles. The same data hypsography data used for GRCA was used for LAKE in order to have coincident boundaries. The boundary along the centerline of the Colorado River was completed the same way by using USGS hydrography data as well as the southern bank of the Colorado River where LAKE and GRCA meet. Where GCDB data did exist that coincided with the boundary, linework was copied from the PLSS layer to the tract or boundary layer. In order to map the interior and exterior tracts, deeds, legal descriptions, Arizona State Land Department, Arizona Land Resources Information System data was used. Some tract boundaries were not as definitive. The process for mapping these tracts is as follows: On-screen digitized a portion of tract 06-101 from previous segment maps, starting at point X = 782207.63 Y = 13103198.59 and ending at point X = 847757.29 Y = 12985590.86. All other tracts within LAKE were completed using BLM GCDB data and referencing BLM MTPs to verify. In particular, the aforementioned portion of tract 06-101, as well as tracts 14-101 and 14-102 where LAKE and the Hualapai Indian Reservation overlap. For tax parcels tracts, Las Vegas NV Assessor’s Office data was used. The ALLTAX coverage is a polygon coverage representing tax district boundaries for all of Clark County. This data set was created in part by control points. The AOGPS coverage contains control points for areas throughout the county. Many Control Points for this coverage were originally derived by the County Surveyor's Office by field survey methods, using Trimble Navigation Systems Global Position System Technology, yielding positional accuracy "resource" to "survey" grade, depending upon the method of survey. This data has been subsequently converted by the Assessor's Parcel Data Systems Division from NAD 83, HARN adjusted Nevada State Plane Grid Coordinates in meters, to "Ground Coordinates" in "State Plane Feet". This data is intended for internal Clark County Assessor's purposes only. No liability is assumed by Clark County for the accuracy of this adjusted data. The Arizona state land ownership portion of the land coverage is updated along with the surface parcels coverage. All changes to the surface parcels are performed by the CAD department. They are then given to the GIS department in a DXF file on a township by township basis. Through a series of AMLs and editing procedures, the changes in the DXF file are incorporated into the surface parcels and land coverages. Changes in federal agencies are done primarily through the Bureau of Land Management (BLM) using a customized AML based application of ArcInfo. BLM incorporates its changes as well as others such as the Forest Service, Bureau of Reclamation, Fish &amp; Wildlife Service, National Park Service, etc. BLM and State of Arizona status is updated approximately every six months, other agencies are updated on an irregular basis. Per Public Law 88-639 The inclusion of Indian Lands within the exterior boundaries of the area shall not be effective until approved by the Hualapai Tribal Council. Nothing in this Act shall deprive the members of the Hualapai Tribe of hunting and fishing privileges presently exercised by them, nor diminish those rights and privileges of that part of the reservation which is included in the Lake Mead Recreation Area. Data is obtained from both the Bureau of Land Management and Bureau of Indian Affairs on a somewhat regular basis and incorporated into the land coverage as necessary. UPDATE 04/17/2014: The Bureau of Land Management recently surveyed the boundary of the Mt. Logan Wilderness, which shares a boundary with part of the Park in parts of T33N and 34N, R8W. The data was provided to GRCA by NPS Chief Cartographer, Chief Cartographer, in the ESRI shapefile format in UTM Zone 12N NAD83. This shapefile polygon boundary was traced to reshape the GRCA boundary polygon, where the boundary is shared. GRCA boundary sections that are defined as the “high-water mark” of the Colorado River were delineated by digitizing from two primary data sources: 1) High-resolution (18-cm) color-infrared imagery from the USGS GCMRC (Grand Canyon Monitoring and Research Center; 2002, 2005 and 2009), and 2) modeled flow lines from the US Bureau of Reclamation (BOR, Wright, et al., 2004), based on 1-meter LIDAR. Both primary sources were supplemented by an ISTAR 2002 Digital Surface Model (DSM), alternate high-resolution imagery, USGS GCMRC modeled flow lines (Magirl, et al., 2008), and on-the-ground mapping. Where using high-resolution imagery, the high-water mark is clearly visible thorough changes in vegetation, soil, bedrock bleaching, etc. This method was used in the Lee’s Ferry area (GCMRC River Mile 0-1.1, river right), near Parashant Canyon (RM 198.2-201.4, river left), and downstream of Diamond Creek to Lake Mead (RM 226.2-273.9, river left). The BOR flow lines were primarily used upstream from Navajo Bridge (RM 0-4.54, river left; RM 1.1-4.56, river right), between Tuckup and Parashant Canyons (RM 165.2-198.2, river left), and fom below Tuckup Canyon (RM 201.4) to below Diamond Creek Rapids (RM 226.2). UPDATE 02/03/2014: The GRCA and LAKE boundaries have been adjusted to coincide with the Mount Logan Wilderness area survey that was conducted. The areas affected for GRCA are T33N-R8W sections 5,8,17 and T34N-R8W sections29,32. The areas affected for LAKE are T33N-R8W sections 17, 18 and T33N-R8W section 13. UPDATE 05/10/2018: Tract 03-110 was updated to reflect the plat map NVMS4146.</gco:CharacterString>
+					</mrl:description>
+					<mrl:processor>
+						<cit:CI_Responsibility>
+							<cit:role>
+								<cit:CI_RoleCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_RoleCode" codeListValue="processor">processor</cit:CI_RoleCode>
+							</cit:role>
+							<cit:party>
+								<cit:CI_Organisation>
+									<cit:name>
+										<gco:CharacterString>NPS Land Resources Division, WASO-FC </gco:CharacterString>
+									</cit:name>
+									<cit:contactInfo>
+										<cit:CI_Contact>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-416-8529 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:phone>
+												<cit:CI_Telephone>
+													<cit:number>
+														<gco:CharacterString>970-484-6432 </gco:CharacterString>
+													</cit:number>
+													<cit:numberType>
+														<cit:CI_TelephoneTypeCode codeList="standards.iso.org/19115/-3/lan/1.0/codelists.xml#CI_TelephoneTypeCode" codeListValue="facsimile">facsimile</cit:CI_TelephoneTypeCode>
+													</cit:numberType>
+												</cit:CI_Telephone>
+											</cit:phone>
+											<cit:address>
+												<cit:CI_Address>
+													<cit:deliveryPoint>
+														<gco:CharacterString>301 S. Howes Street Suite 208 </gco:CharacterString>
+													</cit:deliveryPoint>
+													<cit:city>
+														<gco:CharacterString>Fort Collins </gco:CharacterString>
+													</cit:city>
+													<cit:administrativeArea>
+														<gco:CharacterString>CO </gco:CharacterString>
+													</cit:administrativeArea>
+													<cit:postalCode>
+														<gco:CharacterString>80522 </gco:CharacterString>
+													</cit:postalCode>
+													<cit:country>
+														<lan:CountryCode codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US">US</lan:CountryCode>
+													</cit:country>
+													<cit:electronicMailAddress>
+														<gco:CharacterString>Sean_Carlton@nps.gov </gco:CharacterString>
+													</cit:electronicMailAddress>
+												</cit:CI_Address>
+											</cit:address>
+											<cit:hoursOfService>
+												<gco:CharacterString>7:00am-3:30pm M-F Mountain </gco:CharacterString>
+											</cit:hoursOfService>
+										</cit:CI_Contact>
+									</cit:contactInfo>
+									<cit:individual>
+										<cit:CI_Individual>
+											<cit:name>
+												<gco:CharacterString>Sean Carlton </gco:CharacterString>
+											</cit:name>
+											<cit:positionName>
+												<gco:CharacterString>Cartographer </gco:CharacterString>
+											</cit:positionName>
+										</cit:CI_Individual>
+									</cit:individual>
+								</cit:CI_Organisation>
+							</cit:party>
+						</cit:CI_Responsibility>
+					</mrl:processor>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Segment Maps 1-27 found here: http://landsnet.nps.gov/tractsnet/documents/lake/Segment_Maps/ </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Deeds 1-88 found here: http://landsnet.nps.gov/tractsnet/documents/lake/Deeds/ </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Miscellaneous Maps found here: http://landsnet.nps.gov/tractsnet/documents/lake/Miscellaneous_Maps/ </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Legislative summary found here: http://landsnet.nps.gov/tractsnet/documents/lake/Legislation/lake_summary.pdf </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Other legislation found here: http://landsnet.nps.gov/tractsnet/documents/lake/Legislation/ </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>BLM GCDB Data </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Mohave and Coconino Counties Digital Orthophoto mosaics </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>1:24k USGS DLG data for Hypsography, Hydrography </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Arizona Surface Management Parcel Data from the Arizona State Land Department, Arizona Land Resources Information System </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>USGS 24K Quads </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+					<mrl:source>
+						<mrl:LI_Source>
+							<mrl:sourceCitation>
+								<cit:CI_Citation>
+									<cit:title gco:nilReason="missing"/>
+									<cit:alternateTitle>
+										<gco:CharacterString>Clark County Assessor's Tax Parcel Data </gco:CharacterString>
+									</cit:alternateTitle>
+								</cit:CI_Citation>
+							</mrl:sourceCitation>
+						</mrl:LI_Source>
+					</mrl:source>
+				</mrl:LI_ProcessStep>
+			</mrl:processStep>
+		</mrl:LI_Lineage>
+	</mdb:resourceLineage>
+</mdb:MD_Metadata>

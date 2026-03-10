@@ -23,8 +23,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Load Packages
 ```{r}
 #load in necessary packages
-
+library(sf)
+library(tmap)
 getwd()
+library(lubridate)
 ```
 
 ### Load in Data
@@ -32,12 +34,16 @@ getwd()
 # Read in bird data from Nevada and Arizona 
 
 # Read in lake mead water level data
-water_elevation <- read.csv("lake_mead_water_elevation.csv")
+water_elevation <- read.csv("data/lake_mead_water_elevation.csv")
 head(water_elevation)
   #filter or combine average for fall/spring
+water_elevation$datetime <- as.Date(water_elevation$datetime)
+water_elevation$year <- year(water_elevation$datetime)
+water_elevation$month<- month(water_elevation$datetime)
+
 
 # Read in shape file for study location (around lake mead) (Q: can we download individual data points rather than shape file)
-lake_mead_shape <- st_read("lake_tracts/lake_tracts.shp")
+lake_mead_shape <- st_read("data/lake_tracts/lake_tracts.shp")
 sf::sf_use_s2(FALSE) #solving spherical geom problem
 mega_lake <- st_union(lake_mead_shape) #dissolving polygon borders into one mega polygon
 mini_lakes <- st_cast(mega_lake, "POLYGON") #splits up multi-polygon into individual polygons

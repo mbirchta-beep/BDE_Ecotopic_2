@@ -73,12 +73,62 @@ tm_shape(lake_mead) + tm_polygons()
 ### all done in outside rmd (read in as "NV_final_birds.csv")
 ```
 
+
 ### Variable Wrangling
 ```{r}
+head(NV_bird_data)
+
 #make new variable that assigns species to binary categories (waterfowl_yes, waterfowl_no)
-NV_bird_data %>%
-  mutate(waterfowl_yes = c())
+NV_bird_data <- NV_bird_data %>%
+  mutate(waterfowl = ifelse(common_name %in% c("Western Grebe", "American Coot", "Ring-billed Gull", "American White Pelican"),
+      "yes",
+      "no"))
+
+#group by year and month
+NV_bird_basics <- NV_bird_data %>%
+  # Fix observation_count
+  mutate(
+    observation_count = ifelse(observation_count == "X", 1, as.numeric(observation_count)),
+    observation_date = as.Date(observation_date),
+    year = as.numeric(format(observation_date, "%Y")),
+    month = as.numeric(format(observation_date, "%m")),
+    season = case_when(
+      month %in% 2:5  ~ "Spring",
+      month %in% 8:11 ~ "Fall",
+      TRUE             ~ NA_character_  # ignore other months
+    )
+  ) %>%
+  filter(!is.na(season)) %>%
+  group_by(common_name, year, season, waterfowl) %>%
+  summarise(total_observations = sum(observation_count, na.rm = TRUE)) %>%
+  ungroup()
+
+
 #make a proportion of waterfowl to all birds (waterfowl_prop)
+NV_bird_prop <- NV_bird_data %>%
+  # Fix observation_count and extract year/season
+  mutate(
+    observation_count = ifelse(observation_count == "X", 1, as.numeric(observation_count)),
+    observation_date = as.Date(observation_date),
+    year = as.numeric(format(observation_date, "%Y")),
+    month = as.numeric(format(observation_date, "%m")),
+    season = case_when(
+      month %in% 2:5  ~ "Spring",
+      month %in% 8:11 ~ "Fall",
+      TRUE             ~ NA_character_
+    )
+  ) %>%
+  filter(!is.na(season)) %>%
+  # Group by year and season only
+  group_by(year, season) %>%
+  # Summarize total waterfowl and non-waterfowl
+  summarise(
+    waterfowl_total = sum(observation_count[waterfowl == "yes"], na.rm = TRUE),
+    non_waterfowl_total = sum(observation_count[waterfowl == "no"], na.rm = TRUE),
+    total_birds = waterfowl_total + non_waterfowl_total,
+    waterfowl_prop = waterfowl_total / total_birds
+  ) %>%
+  ungroup()
 ```
 
 # Body

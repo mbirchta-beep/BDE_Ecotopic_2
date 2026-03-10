@@ -25,13 +25,16 @@ knitr::opts_chunk$set(echo = TRUE)
 #load in necessary packages
 library(sf)
 library(tmap)
-getwd()
 library(lubridate)
+library(dplyr)
+
+getwd()
 ```
 
 ### Load in Data
 ```{r}
-# Read in bird data from Nevada and Arizona 
+# Read in bird data from Nevada
+NV_bird_data <- read.csv("data/NV_final_birds.csv")
 
 # Read in lake mead water level data
 water_elevation <- read.csv("data/lake_mead_water_elevation.csv")
@@ -56,17 +59,17 @@ tm_shape(lake_mead) + tm_polygons()
 ### Data set Wrangling
 ```{r}
 # Clip bird data to lake mead shape file boundary (just include bird data for study location)
-
 # Pre visualization of lake mead shape file boundary
-
 # Drop spatial geometry
-## st_drop_geometry()
+
+### all done in outside rmd (read in as "NV_final_birds.csv")
 ```
 
 ### Variable Wrangling
 ```{r}
 #make new variable that assigns species to binary categories (waterfowl_yes, waterfowl_no)
-
+NV_bird_data %>%
+  mutate(waterfowl_yes = c())
 #make a proportion of waterfowl to all birds (waterfowl_prop)
 ```
 
